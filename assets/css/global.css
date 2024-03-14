@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'Aeonik Black';
+  src: url('/fonts/aeonik-black.woff') format('woff');
+
+}
+@font-face {
+  font-family: 'Aeonik Bold';
+  src: url('/fonts/aeonik-bold.woff') format('woff');
+
+}
+
+@font-face {
+  font-family: 'Aeonik Regular';
+  src: url('/fonts/aeonik-regular.woff') format('woff');
+
+}
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style-type:none;
+    color:white;
+    font-family: 'Aeonik Regular';
+    font-weight:500;
+
+}
+body{
+  background-image: url('/images/background.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
